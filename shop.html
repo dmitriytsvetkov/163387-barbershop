@@ -6,111 +6,121 @@
 </head>
 <body>
 
-    <header class="main_header">
-        <div class="container">
-            <nav class="main_navigation">
-                <ul>
-                    <li>
-                        <img src="http://placehold.it/150x100" width="150" height="100" alt="Барбершоп">
-                    </li>
-                    <li>
-                        <a href="#">Информация</a>
-                    </li>
-                    <li>
-                        <a href="#">Новости</a>
-                    </li>
-                    <li>
-                        <a href="#">Прайс-лист</a>
-                    </li>
-                    <li>
-                        <a href="#">Магазин</a>
-                    </li>
-                    <li>
-                        <a href="#">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="user_block">
-                <a class="login" href="#">Вход</a>
-            </div>
+<header class="main_header">
+    <div class="container">
+        <div class="logotype">
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="Барбершоп">
         </div>
-    </header>
+        <nav class="main_navigation">
+            <ul>
+                <li>
+                    <a href="#">Информация</a>
+                </li>
+                <li>
+                    <a href="#">Новости</a>
+                </li>
+                <li>
+                    <a href="#">Прайс-лист</a>
+                </li>
+                <li class="active">
+                    <a href="#">Магазин</a>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="user_block">
+            <a class="login" href="#">Вход</a>
+        </div>
+    </div>
+</header>
 
 <main class="container">
 
-    <h1>Средства для ухода</h1>
-
-    <div class="breadcrumbs">
-        <div>Главная</div>
-        <div>Магазин</div>
-        <div>Средства для ухода</div>
+    <div>
+        <h1 class="main_h1">Средства для ухода</h1>
     </div>
 
-    <h2>Производители</h2>
+    <div class="breadcrumbs">
+        <ul>
+            <li>
+                <a href="#">Главная</a>
+            </li>
+            <li>
+                <a href="#">Магазин</a>
+            </li>
+            <li>Средства для ухода</li>
+        </ul>
+    </div>
+
+    <div class="catalog_form">
         <form>
-            <input type="checkbox" name="baxter" id="baxter">
-                <label for="baxter">baxter of california</label> <br>
-            <input type="checkbox" name="natty" id="natty">
-                <label for="natty">mr natty</label> <br>
-            <input type="checkbox" name="suavecito" id="suavecito">
-                <label for="suavecito">suavecito</label> <br>
-            <input type="checkbox" name="malin" id="malin">
-                <label for="malin">malin+goetz</label> <br>
-            <input type="checkbox" name="murray" id="murray">
-                <label for="murray">murray's</label> <br>
-            <input type="checkbox" name="american" id="american">
-                <label for="american">american crew</label> <br>
+            <h2>Производители</h2>
+                <input type="checkbox" name="baxter" id="baxter">
+                    <label for="baxter">baxter of california</label>
+                <input type="checkbox" name="natty" id="natty">
+                    <label for="natty">mr natty</label>
+                <input type="checkbox" name="suavecito" id="suavecito">
+                    <label for="suavecito">suavecito</label>
+                <input type="checkbox" name="malin" id="malin">
+                    <label for="malin">malin+goetz</label>
+                 <input type="checkbox" name="murray" id="murray">
+                    <label for="murray">murray's</label>
+                <input type="checkbox" name="american" id="american">
+                    <label for="american">american crew</label>
+            <h2>Группы товаров:</h2>
+            <button type="submit">Показать</button>
         </form>
+    </div>
+    <div class="main_catalog">
+        <article class="baxter_travel_set">
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для путешествий Baxter of california">
+            <p>Набор для путешествий "Baxter of california"</p>
+            <div class="baxter_travel_set_price">2900</div>
+            <a class="btn" href="#">Купить</a>
+        </article>
 
-    <h2>Группы товаров:</h2>
-    <button class="btn content_show">Показать</button>
+        <article class="baxter_conditioner">
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="Увлажняющий кондиционер Baxter of california">
+            <p>Увлажняющий кондиционер "Baxter of california"</p>
+            <div class="baxter_conditioner_price">750</div>
+            <a class="btn" href="#">Купить</a>
+        </article>
 
-    <article class="baxter_travel_set">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для путешествий Baxter of california">
-        <p>Набор для путешествий "Baxter of california"</p>
-        <div class="baxter_travel_set_price">2900</div>
-        <a class="btn" href="#">Купить</a>
-    </article>
+        <article class="suavecito_gel">
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="Гель для волос Suavecito">
+            <p>Гель для волос "Suavecito"</p>
+            <div class="suavecito_gel_price">290</div>
+            <a class="btn" href="#">Купить</a>
+        </article>
 
-    <article class="baxter_conditioner">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Увлажняющий кондиционер Baxter of california">
-        <p>Увлажняющий кондиционер "Baxter of california"</p>
-        <div class="baxter_conditioner_price">750</div>
-        <a class="btn" href="#">Купить</a>
-    </article>
+        <article class="american_clay">
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="Глина для укладки волос American crew">
+            <p>Глина для укладки волос "American crew"</p>
+            <div class="american_clay_price">500</div>
+            <a class="btn" href="#">Купить</a>
+        </article>
 
-    <article class="suavecito_gel">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Гель для волос Suavecito">
-        <p>Гель для волос "Suavecito"</p>
-        <div class="suavecito_gel_price">290</div>
-        <a class="btn" href="#">Купить</a>
-    </article>
+        <article class="american_gel">
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="Гель для волос American crew">
+            <p>Гель для волос "American crew"</p>
+            <div class="american_gel_price">300</div>
+            <a class="btn" href="#">Купить</a>
+        </article>
 
-    <article class="american_clay">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Глина для укладки волос American crew">
-        <p>Глина для укладки волос "American crew"</p>
-        <div class="american_clay_price">500</div>
-        <a class="btn" href="#">Купить</a>
-    </article>
+        <article class="baxter_shaving_kit">
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для бритья Baxter of california">
+            <p>Набор для бритья "Baxter of california"</p>
+            <div class="baxter_shaving_kit_price">3900</div>
+            <a class="btn" href="#">Купить</a>
+        </article>
 
-    <article class="american_gel">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Гель для волос American crew">
-        <p>Гель для волос "American crew"</p>
-        <div class="american_gel_price">300</div>
-        <a class="btn" href="#">Купить</a>
-    </article>
-
-    <article class="baxter_shaving_kit">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для бритья Baxter of california">
-        <p>Набор для бритья "Baxter of california"</p>
-        <div class="baxter_shaving_kit_price">3900</div>
-        <a class="btn" href="#">Купить</a>
-    </article>
-
-    <a class="btn" href="#">1</a>
-    <a class="btn" href="#">2</a>
-    <a class="btn" href="#">3</a>
-    <a class="btn" href="#">4</a>
+        <a class="btn" href="#">1</a>
+        <a class="btn" href="#">2</a>
+        <a class="btn" href="#">3</a>
+        <a class="btn" href="#">4</a>
+    </div>
 </main>
 
 <footer class="main_footer">
