@@ -2,8 +2,6 @@ body {
 	font-size: 14px;
     font-family: "PTSansNarrowBold", "Arial", serif;
 	color: #000000;
-	background: url("../img/barbershop-shop.png") no-repeat 50% 3px;
-	min-height: 1170px;
 	margin: 0;
 	padding: 0;
 }
