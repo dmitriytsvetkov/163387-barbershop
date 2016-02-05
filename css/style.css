@@ -21,6 +21,7 @@ h2 {
 	clear: both;
 }
 .container {
+	outline: 1px solid blueviolet;
 	margin: 0 auto;
 	width: 940px;
 	padding: 0 10px;
@@ -49,95 +50,86 @@ h1 {
 
 }
 .breadcrumbs{
-	margin-top: 10px;
 	min-height: 35px;
 }
 .catalog_form {
 	float: left;
-	min-height: 590px;
 	width: 220px;
 }
 .main_catalog {
+	background-color: peachpuff;
 	width: 720px;
 	float:left;
 	font-size: 0px;
 }
-.item:nth-child(-n+3) {
+.item {
+	outline: 1px solid red;
 	vertical-align: top;
 	display: inline-block;
 	min-height: 285px;
 	width: 220px;
 	margin-left: 20px;
+	margin-bottom: 20px;
 	font-size: 14px;
 }
-.item:nth-child(n+4) {
-	vertical-align: top;
-	display: inline-block;
-	min-height: 285px;
-	width: 220px;
-	margin-top: 20px;
-	margin-left: 20px;
+.paginator {
 	font-size: 14px;
+	margin-left: 20px;
 }
 .main_footer {
+	background-color: cornsilk;
 	margin-top: 50px;
 	padding-top: 60px;
 	padding-bottom: 40px;
 }
 .footer-contacts {
+	outline: 1px solid blueviolet;
 	min-height: 90px;
-	width: 320px;
+	width: 380px;
 	float: left;
 }
 .footer-social {
+	outline: 1px solid blueviolet;
 	min-height: 90px;
-	width: 300px;
+	width: 340px;
 	float: left;
-	margin-left: 60px;
 }
 .footer-copyright {
+	outline: 1px solid blueviolet;
 	min-height: 90px;
-	float: right;
-	width: 180px;
-}
-.paginator {
-	margin-top: 40px;
 	float: left;
-	margin-left: 240px;
-	margin-bottom: 50px;
+	width: 220px;
 }
-.main_navigation_li {
+
+.main_navigation li {
 	display: inline-block;
 	vertical-align: top;
+	font-size: 14px;
+}
+.main_navigation ul {
+	font-size: 0;
 }
 .social {
 	padding-right: 10px;
 	float: left;
 }
 .photos {
-	width: 460px;
+	font-size: 0;
+	width: 50%;
 	float: left;
 }
 .information {
 	float: right;
-	width: 460px;
+	width: 50%;
 }
 .photo {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 15px;
 }
-.photo:last-child {
+.photo:nth-child(3n) {
 	margin-right: 0px;
 }
-.main_photo {
-	width: 460px;
-	float: left;
-}
-.information_about {
-
-}
-
 
 
 
