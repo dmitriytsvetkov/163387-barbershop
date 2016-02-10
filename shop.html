@@ -7,7 +7,7 @@
     <title></title>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body class="body_catalog">
 <header class="main_header">
     <div class="container clearfix">
         <div class="logotype">
@@ -25,7 +25,7 @@
                     <a href="#">Прайс-лист</a>
                 </li>
                 <li class="active">
-                    <a href="#">Магазин</a>
+                    <span>Магазин</span>
                 </li>
                 <li>
                     <a href="#">Контакты</a>
@@ -47,7 +47,7 @@
             <li>
                 <a href="#">Магазин</a>
             </li>
-            <li>Средства для ухода</li>
+            <li class="current">Средства для ухода</li>
         </ul>
     </div>
     <div class="wrapper clearfix">
@@ -56,109 +56,108 @@
                 <fieldset>
                     <legend>Производители</legend>
                     <input type="checkbox" name="baxter" id="baxter">
-                    <label for="baxter">baxter of california</label>
+                    <label class="login_checkbox" for="baxter"><span class="checkbox_indicator"></span>baxter of california</label>
                     <input type="checkbox" name="natty" id="natty">
-                    <label for="natty">mr natty</label>
+                    <label class="login_checkbox" for="natty"><span class="checkbox_indicator"></span>mr natty</label>
                     <input type="checkbox" name="suavecito" id="suavecito">
-                    <label for="suavecito">suavecito</label>
+                    <label class="login_checkbox" for="suavecito"><span class="checkbox_indicator"></span>suavecito</label>
                     <input type="checkbox" name="malin" id="malin">
-                    <label for="malin">malin+goetz</label>
+                    <label class="login_checkbox" for="malin"><span class="checkbox_indicator"></span>malin+goetz</label>
                     <input type="checkbox" name="murray" id="murray">
-                    <label for="murray">murray's</label>
+                    <label class="login_checkbox" for="murray"><span class="checkbox_indicator"></span>murray's</label>
                     <input type="checkbox" name="american" id="american">
-                    <label for="american">american crew</label>
+                    <label class="login_checkbox" for="american"><span class="checkbox_indicator"></span>american crew</label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="catalog_form_groups">
                     <legend>Группы товаров</legend>
-
                 </fieldset>
-                <button type="submit">Показать</button>
+                <button type="submit" class="btn show">Показать</button>
             </form>
         </div>
         <div class="main_catalog">
             <article class="item">
-                <img src="img/shop_baxter_set.jpg" width="150" height="100" alt="Набор для путешествий Baxter of california">
-                <div>
+                <img src="img/shop_baxter_set.jpg" alt="Набор для путешествий Baxter of california">
+                <div class="item_text">
                     <a href="#">
-                        <span class="text_product">Набор для путешествий</span>
-                        <span class="name_product">"Baxter of california"</span>
+                        <div class="text_product">Набор для путешествий</div>
+                        <div class="name_product">&laquo;Baxter of california&raquo;</div>
                     </a>
                 </div>
-                <div>
+                <div class="item_interactive clearfix">
                     <span class="price">2900</span>
                     <a class="btn" href="#">Купить</a>
                 </div>
             </article>
             <article class="item">
-                <img src="img/shop_baxter_conditioner.jpg" width="150" height="100" alt="Увлажняющий кондиционер Baxter of california">
-                <div>
+                <img src="img/shop_baxter_conditioner.jpg" alt="Увлажняющий кондиционер Baxter of california">
+                <div class="item_text">
                     <a href="#">
-                        <span class="text_product">Увлажняющий кондиционер</span>
-                        <span class="name_product">"Baxter of california"</span>
+                        <div class="text_product">Увлажняющий кондиционер</div>
+                        <div class="name_product">&laquo;Baxter of california&raquo;</div>
                     </a>
                 </div>
-                <div>
+                <div class="item_interactive clearfix">
                     <span class="price">750</span>
                     <a class="btn" href="#">Купить</a>
                 </div>
             </article>
             <article class="item">
-                <img src="img/shop_baxter_conditioner.jpg" width="150" height="100" alt="Увлажняющий кондиционер Baxter of california">
-                <div>
+                <img src="img/shop_suavecito_gell.jpg" alt="Гель для волос Suavecito">
+                <div class="item_text">
                     <a href="#">
-                        <span class="text_product">Увлажняющий кондиционер</span>
-                        <span class="name_product">"Baxter of california"</span>
+                        <div class="text_product">Гель для волос</div>
+                        <div class="name_product">&laquo;Suavecito&raquo;</div>
                     </a>
                 </div>
-                <div>
-                    <span class="price">750</span>
+                <div class="item_interactive clearfix">
+                    <span class="price">290</span>
                     <a class="btn" href="#">Купить</a>
                 </div>
             </article>
             <article class="item">
-                <img src="img/shop_baxter_conditioner.jpg" width="150" height="100" alt="Увлажняющий кондиционер Baxter of california">
-                <div>
+                <img src="img/shop_american_clay.jpg" alt="Глина для укладки волос American Crew">
+                <div class="item_text">
                     <a href="#">
-                        <span class="text_product">Увлажняющий кондиционер</span>
-                        <span class="name_product">"Baxter of california"</span>
+                        <div class="text_product">Глина для укладки волос</div>
+                        <div class="name_product">&laquo;American Crew&raquo;</div>
                     </a>
                 </div>
-                <div>
-                    <span class="price">750</span>
+                <div class="item_interactive clearfix">
+                    <span class="price">500</span>
                     <a class="btn" href="#">Купить</a>
                 </div>
             </article>
             <article class="item">
-                <img src="img/shop_baxter_conditioner.jpg" width="150" height="100" alt="Увлажняющий кондиционер Baxter of california">
-                <div>
+                <img src="img/shop_american_gel.jpg" alt="Гель для волос American Crew">
+                <div class="item_text">
                     <a href="#">
-                        <span class="text_product">Увлажняющий кондиционер</span>
-                        <span class="name_product">"Baxter of california"</span>
+                        <div class="text_product">Гель для волос</div>
+                        <div class="name_product">&laquo;American Crew&raquo;</div>
                     </a>
                 </div>
-                <div>
-                    <span class="price">750</span>
+                <div class="item_interactive clearfix">
+                    <span class="price">300</span>
                     <a class="btn" href="#">Купить</a>
                 </div>
             </article>
             <article class="item">
-                <img src="img/shop_baxter_conditioner.jpg" width="150" height="100" alt="Увлажняющий кондиционер Baxter of california">
-                <div>
+                <img src="img/shop_baxter_shaving_set.jpg" alt="Набор для бритья Baxter of california">
+                <div class="item_text">
                     <a href="#">
-                        <span class="text_product">Увлажняющий кондиционер</span>
-                        <span class="name_product">"Baxter of california"</span>
+                        <div class="text_product">Набор для бритья</div>
+                        <div class="name_product">&laquo;Baxter of california&raquo;</div>
                     </a>
                 </div>
-                <div>
-                    <span class="price">750</span>
+                <div class="item_interactive clearfix">
+                    <span class="price">3900</span>
                     <a class="btn" href="#">Купить</a>
                 </div>
             </article>
             <div class="paginator">
-                <a class="btn" href="#">1</a>
-                <a class="btn active" href="#">2</a>
-                <a class="btn" href="#">3</a>
-                <a class="btn" href="#">4</a>
+                <a class="btn_paginator btn" href="#">1</a>
+                <span class="btn_paginator btn active">2</span>
+                <a class="btn_paginator btn" href="#">3</a>
+                <a class="btn_paginator btn" href="#">4</a>
             </div>
         </div>
     </div>
