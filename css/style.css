@@ -159,7 +159,6 @@ h2 {
 	min-height: 35px;
 }
 .breadcrumbs{
-	outline: 1px solid black;
 	margin-bottom: 45px;
 }
 .breadcrumbs ul {
@@ -226,7 +225,6 @@ legend {
 	font-size: 0px;
 }
 .item {
-	outline: 1px solid red;
 	vertical-align: top;
 	display: inline-block;
 	min-height: 290px;
@@ -299,7 +297,6 @@ legend {
 }
 .information {
 	margin-top: 25px;
-	outline: 1px solid red;
 	float: right;
 	width: 50%;
 }
@@ -333,6 +330,22 @@ legend {
 	margin: 0;
 	margin-left: 100px;
 	padding: 0;
+}
+.information li {
+	list-style: none;
+	position: relative;
+}
+.information li:after {
+	content: "";
+	display: block;
+	background-color: black;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	top: 8px;
+	left: -15px;
+	transform: rotate(45deg);
+
 }
 .information_interactive .price {
 	display: block;
